@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "511359143393",
+    "project_id": "e-meatshop",
+    "storage_bucket": "e-meatshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511359143393:android:37b1add060d2a8e79056a0",
+        "android_client_info": {
+          "package_name": "co.example.meatshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511359143393-2j4nrj18vovb6mt4tq9qcl39gdbet523.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.example.meatshop",
+            "certificate_hash": "660b5e0b4e93f14526b9493d26c1185edefe0ad6"
+          }
+        },
+        {
+          "client_id": "511359143393-vrb2c4rmsjievenguqkmi5cuga3tu6jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQgIvDvMmxfmKu8imCY8wVg_XLPpvRMhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511359143393-vrb2c4rmsjievenguqkmi5cuga3tu6jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

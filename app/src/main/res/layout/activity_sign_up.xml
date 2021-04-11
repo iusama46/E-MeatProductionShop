@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.consumer.SignUpActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:padding="4dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="8dp"
+        android:text="Meat Production E-Shop"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="35dp"
+        android:hint="Name.."
+        android:inputType="text"
+        android:paddingHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="20dp"
+        android:hint="Address.."
+        android:inputType="text"
+        android:paddingHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="20dp"
+        android:hint="Email.."
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="16dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password.."
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_marginHorizontal="44dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="10dp"
+        android:text="SignUp"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/old_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="44dp"
+        android:text="Already have an account? Sign In "
+        android:layout_below="@id/btn"
+        android:padding="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="@color/design_default_color_primary_dark"/>
+
+
+</RelativeLayout>
+
+</ScrollView>

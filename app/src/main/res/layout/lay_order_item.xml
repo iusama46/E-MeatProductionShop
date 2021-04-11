@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/orderno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:padding="8dp"
+        android:text="Test unit"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderno"
+        android:layout_marginHorizontal="8dp"
+        android:padding="7dp"
+        android:text="Location"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_name"
+        android:layout_marginHorizontal="8dp"
+        android:padding="7dp"
+        android:text="Payment"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/deliverydate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/payment"
+        android:layout_marginHorizontal="8dp"
+        android:padding="7dp"
+        android:text="Payment"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deliverydate"
+        android:layout_marginHorizontal="8dp"
+        android:padding="7dp"
+        android:text="Payment"
+        android:textSize="16sp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/note"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/design_default_color_primary_dark" />
+
+</RelativeLayout>

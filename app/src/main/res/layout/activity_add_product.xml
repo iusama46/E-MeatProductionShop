@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.admin.AddProductActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="14dp"
+                android:src="@drawable/logo" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4dp"
+                android:hint="Product Name"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4dp"
+                android:hint="Quantity eg. 500gm"
+                android:inputType="text"
+                android:padding="10dp" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="2dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/app_name"
+                android:hint="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4dp"
+                android:hint="Price eg. 400"
+                android:inputType="text"
+                android:padding="10dp" />
+
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/state"
+                android:paddingVertical="10dp"
+                android:paddingHorizontal="2dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/app_name"
+                android:hint="@string/app_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+            <EditText
+                android:id="@+id/stock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="4dp"
+                android:hint="Stock"
+
+                android:inputType="phone"
+                android:padding="10dp" />
+
+
+
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                android:layout_margin="4dp"
+                android:hint="Expiry Date e.g 20/12/2021"
+                android:inputType="phone"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Description "
+                android:maxLines="6"
+                android:minLines="3"
+                android:lines="2"
+                android:inputType="textMultiLine"
+                android:padding="10dp" />
+
+            <Button
+                android:id="@+id/choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="4dp"
+                android:layout_marginTop="16dp"
+                android:paddingVertical="10dp"
+                android:text="Choose Media "
+                android:textAllCaps="false"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_marginTop="16dp"
+                android:paddingVertical="10dp"
+                android:text="Add Product "
+                android:textAllCaps="false"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
